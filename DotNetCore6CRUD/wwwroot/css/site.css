@@ -1,0 +1,30 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/****************************/
+.poster{
+    min-height:260px;
+    background-size:100%;
+    transition: all 0.3s ease-in-out;
+    background-position:center;
+}
+.poster:hover{
+    background-size:120%;
+    transition: all 0.3s ease-in-out;
+}
